@@ -1,0 +1,33 @@
+.formCon {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.formCon input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.radioGroup {
+  display: flex;
+  gap: 3rem;
+  margin: 15px 0;
+}
+
+.radioGroup input[type='radio'] {
+  margin-right: 5px;
+}
+.addBtn {
+  margin-top: 30px;
+  background-color: #a78bfa;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.addBtn:hover {
+  background-color: #7c3aed;
+}

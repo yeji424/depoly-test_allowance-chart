@@ -1,0 +1,33 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.modalBox button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.modalBox button:nth-child(2):hover {
+  color: var(--red);
+}
+.modalBox button:nth-child(1):hover {
+  color: rgb(43, 43, 43);
+}

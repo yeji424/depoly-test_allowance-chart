@@ -1,0 +1,40 @@
+.itemCon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  /* border: 1px solid blue; */
+  gap: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.description {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.amount {
+  width: 100px;
+  text-align: right;
+}
+.income {
+  color: var(--green);
+  font-weight: bold;
+}
+
+.expense {
+  color: var(--red);
+  font-weight: bold;
+}
+
+.itemCon button {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.itemCon button:hover {
+  color: var(--red);
+}

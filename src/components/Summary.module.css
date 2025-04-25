@@ -1,0 +1,19 @@
+.summaryCon {
+  display: flex;
+  justify-content: space-around;
+}
+
+.incomeBox {
+  text-align: center;
+  color: var(--green);
+}
+
+.expenseBox {
+  text-align: center;
+  color: var(--red);
+}
+
+.incomeBox p,
+.expenseBox p {
+  font-size: 1rem;
+}
